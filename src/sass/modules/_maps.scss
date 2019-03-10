@@ -3,7 +3,6 @@ $break-large: 1024px;
 
 //$break-height: 610px;
 
-
 // base color defs
 $color-primary: #ffffff;
 $color-secondary: #000000;
@@ -17,17 +16,5 @@ $colors: (
         light: lighten($color-primary, $color-shade-amount),
         dark: darken($color-primary, $color-shade-amount),
         trans: transparentize($color-primary, $color-trans-amount)
-    ),
-    secondary: (
-        base: $color-secondary,
-        light: lighten($color-secondary, $color-shade-amount),
-        dark: darken($color-secondary, $color-shade-amount),
-        trans: transparentize($color-secondary, $color-trans-amount)
-    ),
-    gray: (
-        base: $color-gray,
-        light: lighten($color-secondary, $color-shade-amount),
-        dark: darken($color-secondary, $color-shade-amount),
-        trans: transparentize($color-secondary, $color-trans-amount)
     )
 );
